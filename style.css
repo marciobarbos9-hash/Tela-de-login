@@ -53,15 +53,20 @@ a{
 }
 @media (max-width:390px){
     body{
-    display: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+    margin: 0px;
+}
 
-    }
+    
     .container{ 
     
     color: white;
     width: 300px;
     height: 400px;
-    margin: 50px;
+    margin: 0px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.26);
     border-radius: 20px;}
 }
