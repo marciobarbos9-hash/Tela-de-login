@@ -51,7 +51,7 @@ a{
     text-decoration: none;
     color: white;
 }
-@media (max-width:390px){
+@media (min-width:390px) and (max-width:599px){
    html, body{
     height: 100%;
     margin: 0;
