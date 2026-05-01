@@ -53,14 +53,9 @@ a{
 }
 @media (max-width:390px){
     body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0px;
-}
+    display: none;
 
-    
+    }
     .container{ 
     
     color: white;
